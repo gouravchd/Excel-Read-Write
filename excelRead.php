@@ -19,7 +19,7 @@ $target_file = $target_dir . basename('file-name.xlsx');
 	$highestRow = $sheet->getHighestRow();
 	$highestColumn = $sheet->getHighestColumn();
 
-//LOOP START FROM WHICH ROW	
+//LOOP STARTED FROM ROW	2
 $colCell = '';
 for ($row = 2; $row <= $highestRow; $row++){
     //EVERY ROW DATA
